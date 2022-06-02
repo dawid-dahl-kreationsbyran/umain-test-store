@@ -58,7 +58,7 @@ This will download the theme into production directory.
 
 ## To work with a theme for production
 
-Please do not work directly on a production theme here. Instead, when you are done developing in the development theme, publish it instead and regard it as the new production theme.
+Please do not work directly on a production theme here. Instead, when you are done developing in the development theme, publish it instead and regard _it_ as the new production theme.
 
 ## Production hotfixes
 
