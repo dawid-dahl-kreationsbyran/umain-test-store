@@ -1,6 +1,21 @@
+production:
+    password: shptka_8b34487ce18dc2b42d8f39788c01fd81
+    theme_id: "125546430603"
+    store: umain-test-store.myshopify.com
+    readonly: true
+
 development:
     password: shptka_8b34487ce18dc2b42d8f39788c01fd81
     theme_id: "125548593291"
+    store: umain-test-store.myshopify.com
+    ignore_files:
+        - "*.gif"
+        - "*.jpg"
+        - config/settings_data.json
+
+test:
+    password: shptka_8b34487ce18dc2b42d8f39788c01fd81
+    theme_id: "125573136523"
     store: umain-test-store.myshopify.com
     ignore_files:
         - "*.gif"
