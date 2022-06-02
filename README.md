@@ -72,4 +72,4 @@ After that, save your hotfix, and turn off the watch mode. Revert the readonly k
 
 ## To deploy a theme to production
 
-In Shopify, go to Online Store/Themes and find the development theme you are using. Make sure to commit to Git. Then press Actions/Publish.
+In Shopify, go to Online Store/Themes and find the development theme you are using. Make sure to commit to Github. Then press Actions/Publish.
