@@ -18,6 +18,8 @@ To get the **store**, you'll find that in the URL of the store.
 
 Make sure you've set the **theme_id** correctly in config.yml.
 
+This will download the theme into development directory.
+
 ## To work with a theme for development
 
 In Shopify, go Online Store/Themes and find the theme you want to use for development. Then press Customize and find the ID in the URL, for example: "125548593291".
@@ -34,6 +36,8 @@ This command will push and overwrite the pre-existing development theme code on 
 
 Make sure you've set the **theme_id** correctly in config.yml.
 
+This will download the theme into test directory.
+
 ## To work with a theme for testing
 
 In Shopify, go Online Store/Themes and find the theme you want to use for development. Then press Customize and find the ID in the URL, for example: "125548593291".
@@ -41,6 +45,22 @@ In Shopify, go Online Store/Themes and find the theme you want to use for develo
 This command will push and overwrite the pre-existing test theme code on every save.
 
 `theme watch --env=test --dir=test`
+
+<br>
+
+## To download a theme for production
+
+`theme download --env=production --dir=production`
+
+Make sure you've set the **theme_id** correctly in config.yml.
+
+This will download the theme into production directory.
+
+## To work with a theme for production
+
+Please do not work directly on a production theme here. Instead, when you are done developing in the development theme, publish it instead and regard it as the new production theme.
+
+For hotfixes,
 
 <br>
 
