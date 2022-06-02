@@ -60,7 +60,13 @@ This will download the theme into production directory.
 
 Please do not work directly on a production theme here. Instead, when you are done developing in the development theme, publish it instead and regard it as the new production theme.
 
-For hotfixes,
+## Production hotfixes
+
+For quick hotfixes under exceptional circumstances, first commit the current state of the code to Github. Then you may change the readonly key in the production block in config.yml to "false". Then enter this line into the terminal:
+
+`theme watch --env=production --dir=production --allow-live`
+
+After that, save your hotfix, and turn off the watch mode. Revert the readonly key in the production block of the config.yml back to "true". Then commit the hotfix to Github.
 
 <br>
 
