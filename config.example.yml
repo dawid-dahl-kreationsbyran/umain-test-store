@@ -1,0 +1,23 @@
+production:
+    password: example_8b34487ce18dc2b42d8f39748c01dd81
+    theme_id: "111111111111"
+    store: example-store.myshopify.com
+    readonly: true
+
+development:
+    password: example_8b24487ce13dc2b42d8f39788c01fd81
+    theme_id: "111111111112"
+    store: example-store.myshopify.com
+    ignore_files:
+        - "*.gif"
+        - "*.jpg"
+        - config/settings_data.json
+
+test:
+    password: example_8b33487ce18dc2b42d8f39786c01fd81
+    theme_id: "111111111113"
+    store: example-store.myshopify.com
+    ignore_files:
+        - "*.gif"
+        - "*.jpg"
+        - config/settings_data.json
