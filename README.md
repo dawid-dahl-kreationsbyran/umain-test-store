@@ -10,21 +10,13 @@ To get the **theme_id**, you'll find instructions under "To work with a theme fo
 
 To get the **store**, you'll find that in the URL of the store.
 
-</br>
-
 ---
-
-</br>
 
 ## To download a theme for development
 
 `theme download --env=development --dir=development`
 
-</br>
-
 Make sure you've set the **theme_id** correctly in config.yml.
-
-</br>
 
 ## To work with a theme for development
 
@@ -32,25 +24,15 @@ In Shopify, go Online Store/Themes and find the theme you want to use for develo
 
 This command will push and overwrite the pre-existing development theme code on every save.
 
-</br>
-
 `theme watch --env=development --dir=development`
 
-</br>
-
 ---
-
-</br>
 
 ## To download a theme for testing
 
 `theme download --env=test --dir=test`
 
-</br>
-
 Make sure you've set the **theme_id** correctly in config.yml.
-
-</br>
 
 ## To work with a theme for testing
 
@@ -58,15 +40,9 @@ In Shopify, go Online Store/Themes and find the theme you want to use for develo
 
 This command will push and overwrite the pre-existing test theme code on every save.
 
-</br>
-
 `theme watch --env=test --dir=test`
 
-</br>
-
 ---
-
-</br>
 
 ## To deploy a theme to production
 
