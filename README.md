@@ -10,7 +10,7 @@ To get the **theme_id**, you'll find instructions under "To work with a theme fo
 
 To get the **store**, you'll find that in the URL of the store.
 
----
+<br>
 
 ## To download a theme for development
 
@@ -26,7 +26,7 @@ This command will push and overwrite the pre-existing development theme code on 
 
 `theme watch --env=development --dir=development`
 
----
+<br>
 
 ## To download a theme for testing
 
@@ -42,7 +42,7 @@ This command will push and overwrite the pre-existing test theme code on every s
 
 `theme watch --env=test --dir=test`
 
----
+<br>
 
 ## To deploy a theme to production
 
