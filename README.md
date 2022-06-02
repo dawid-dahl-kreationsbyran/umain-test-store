@@ -22,7 +22,7 @@ This will download the theme into development directory.
 
 ## To work with a theme for development
 
-In Shopify, go Online Store/Themes and find the theme you want to use for development. Then press Customize and find the ID in the URL, for example: "125548593291".
+In Shopify, go to Online Store/Themes and find the theme you want to use for development. Then press Customize and find the ID in the URL, for example: "125548593291".
 
 This command will push and overwrite the pre-existing development theme code on every save.
 
@@ -40,7 +40,7 @@ This will download the theme into test directory.
 
 ## To work with a theme for testing
 
-In Shopify, go Online Store/Themes and find the theme you want to use for development. Then press Customize and find the ID in the URL, for example: "125548593291".
+In Shopify, go to Online Store/Themes and find the theme you want to use for development. Then press Customize and find the ID in the URL, for example: "125548593291".
 
 This command will push and overwrite the pre-existing test theme code on every save.
 
@@ -72,4 +72,4 @@ After that, save your hotfix, and turn off the watch mode. Revert the readonly k
 
 ## To deploy a theme to production
 
-In Shopify, go Online Store/Themes and find the development theme you are using. Make sure to commit to Git. Then press Actions/Publish.
+In Shopify, go to Online Store/Themes and find the development theme you are using. Make sure to commit to Git. Then press Actions/Publish.
