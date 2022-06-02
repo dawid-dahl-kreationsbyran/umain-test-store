@@ -2,7 +2,7 @@
 
 ## Getting started
 
-To start working with the Shopify themes for development or testing, create a "config.yml" file in the root of the project. Fill in the correct data by logging into Shopify.
+To start working with the Shopify themes for development or testing, create a "config.yml" file in the root of the project. You'll find an example with dummy data in the config.example.yml file. Fill in the correct information by logging into Shopify.
 
 To get the **password**, go to Apps. Then download Theme Kit Acces. When you have it, send the password to an email of your choice. Previously you had to use a custom app for this, but Theme Kit Access is the newer method of authenticting that is recommended by Shopify.
 
