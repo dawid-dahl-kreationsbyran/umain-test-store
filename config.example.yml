@@ -28,7 +28,7 @@ test:
 
 development-another-region:
     password: example_8b24487ce13dc2b42d8f39788c01fd81
-    theme_id: "111111111112"
+    theme_id: "111111111114"
     store: example-store.myshopify.com
     ignore_files:
         - "*.gif"
